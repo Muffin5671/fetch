@@ -1,20 +1,10 @@
-<script>
-  async function fetchGeode() {
-    // GET obj list
-    const data = await fetch('https://api.geode-sdk.org/v1/mods');
-    // convert into real data
-    const response = await data.json();
-    return response;
-  }
-
-  async function getGeode() {
-    const json = await fetchGeode();
-    return json;
-  }
-
-  async function readGeode() {
-    let objList = await getGeode();
-  }
-</script>
-<button onclick="readGeode()">Refresh</button>
-<button style="font-size: 25px; padding: 16px 32px;" onclick="location.reload()">Refresh Page</button>
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="js/script.js"></script>
+  </head>
+  <body>
+    <button onclick="readGeode()">Refresh</button>
+    <button style="font-size: 25px; padding: 16px 32px;" onclick="location.reload()">Refresh Page</button>
+  </body>
+</html>
