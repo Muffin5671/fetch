@@ -1,0 +1,30 @@
+p {
+  font-family: sans-serif;
+  font-size: 18px;
+}
+input {
+  font-family: sans-serif;
+  font-size: 18px;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 32px;
+  box-shadow: 0 0 6px #00000033;
+  outline: none;
+}
+button {
+ background-color: #2c98e6;
+ color: #ffffff;
+ font-family: Roboto;
+ font-size: 16px;
+ font-weight: 500;
+ border-width: 0px;
+ border-radius: 4px;
+ padding: 12px 48px;
+ margin-bottom: 10px;
+ cursor: pointer;
+ transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+button:hover {
+ background-color: #2c70e6;
+ box-shadow: 0 2px 8px #00000085;
+}
