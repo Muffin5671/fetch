@@ -4,10 +4,14 @@
     <link rel="stylesheet" href="css/stylesheet.css">
     <script src="js/script.js"></script>
   </head>
-  <body>
+  <body style="
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    ">
     <p>Enter mod ID and version number:</p>
-    <input id="modID" placeholder="firee.goldenbest">
-    <input id="modVer" type="number" placeholder="1.1.2">
+    <input id="modID" placeholder="firee.goldenbest" style="margin-bottom: 20px;">
+    <input id="modVer" placeholder="1.1.2" style="margin-bottom: 20px;">
     <button onclick="readGeode()">Download</button>
   </body>
 </html>
